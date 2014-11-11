@@ -1,0 +1,34 @@
+{
+  "name": "bone-less",
+  "version": "0.0.4",
+  "description": "less compiler for bone",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "make"
+  },
+  "keywords": [
+    "less",
+    "bone-less"
+  ],
+  "config": {
+    "blanket": {
+      "pattern": "bone-less/lib"
+    }
+  },
+  "author": {
+    "name": "wyicwx",
+    "email": "wyicwx@gmail.com",
+    "web": "http://weibo.com/simplemaple"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wyicwx/bone-less.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "less": "~1.7.0"
+  }
+}
