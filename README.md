@@ -1,5 +1,5 @@
 # bone-less
-> bone的less处理器，提供编译
+> bone的less处理器
 
 ### 安装及使用
 
