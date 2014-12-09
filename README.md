@@ -16,7 +16,7 @@ var bone = require('bone');
 var less = require('bone-less');
 
 bone.dest('dist')
-	.src('~/src/main.js')
+	.src('~/src/css/*.less')
 	.act(less);
 ```
 
@@ -24,7 +24,7 @@ bone.dest('dist')
 
 ```js
 bone.dest('dist')
-	.src('~/src/main.js')
+	.src('~/src/css/*.less')
 	.act(less({
 		ieCompat: false
 	}));
