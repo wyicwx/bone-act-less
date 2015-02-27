@@ -1,5 +1,5 @@
 {
-  "name": "bone-less",
+  "name": "bone-act-less",
   "version": "0.0.4",
   "description": "less compiler for bone",
   "main": "index.js",
