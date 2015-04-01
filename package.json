@@ -11,11 +11,11 @@
   },
   "keywords": [
     "less",
-    "bone-less"
+    "bone-act-less"
   ],
   "config": {
     "blanket": {
-      "pattern": "bone-less/lib"
+      "pattern": "bone-act-less/lib"
     }
   },
   "author": {
