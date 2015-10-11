@@ -1,6 +1,6 @@
 {
   "name": "bone-act-less",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "less compiler for bone",
   "main": "index.js",
   "directories": {
