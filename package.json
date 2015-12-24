@@ -1,6 +1,6 @@
 {
   "name": "bone-act-less",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "description": "less compiler for bone",
   "main": "index.js",
   "directories": {
@@ -29,6 +29,6 @@
   },
   "license": "MIT",
   "dependencies": {
-    "less": "~1.7.0"
+    "less": "^2.5.3"
   }
 }
