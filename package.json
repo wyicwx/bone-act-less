@@ -3,11 +3,9 @@
   "version": "0.3.0",
   "description": "less compiler for bone",
   "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
   "scripts": {
-    "test": "make"
+    "test": "make",
+    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/"
   },
   "keywords": [
     "less",
@@ -25,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/wyicwx/bone-less.git"
+    "url": "https://github.com/wyicwx/bone-act-less.git"
   },
   "license": "MIT",
   "dependencies": {

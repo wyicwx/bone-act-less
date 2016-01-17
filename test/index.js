@@ -20,7 +20,7 @@ describe('less', function() {
                 return done(false);
             }
 
-
+            done();
         });
     });
 });

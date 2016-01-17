@@ -3,3 +3,7 @@ var less = bone.require('../../');
 
 var dist = bone.dest('dist').cwd('~/');
 
+dist.src('./style.less')
+    .rename({
+        ext: '.css'
+    });
