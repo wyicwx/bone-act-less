@@ -1,6 +1,8 @@
 # bone-act-less
 > bone的less处理器
 
+[![NPM version](https://img.shields.io/npm/v/bone-act-less.svg?style=flat)](https://npmjs.org/package/bone-act-less) [![NPM version](https://img.shields.io/npm/dm/bone-act-less.svg?style=flat)](https://npmjs.org/package/bone-act-less) [![travis](https://api.travis-ci.org/wyicwx/bone-act-less.png)](https://travis-ci.org/wyicwx/bone-act-less)
+
 ### 安装及使用
 
 通过npm安装
@@ -13,7 +15,7 @@ $ npm install bone-act-less
 
 ```js
 var bone = require('bone');
-var less = require('bone-act-less');
+var less = bone.require('bone-act-less');
 
 bone.dest('dist')
 	.src('~/src/css/*.less')
